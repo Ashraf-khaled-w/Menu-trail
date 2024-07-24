@@ -1,0 +1,191 @@
+body{
+    background-color:rgb(23, 21, 59) ;
+    color: rgb(200, 172, 214) ;
+    font-size: 20px;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    text-decoration: underline 3px;
+    text-transform: uppercase;
+    text-underline-offset: 10px;
+}
+h2{
+    line-height: 1px;
+    font-size: 30px;
+    text-decoration: underline 3px;
+    text-transform: uppercase;
+    text-underline-offset: 10px;
+    /* margin-left: 30px; */
+    
+}
+h3{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h4{
+    text-transform: capitalize;
+    font-style: italic;
+    /* margin-bottom: -12px; */
+}
+p{
+    font-size: small;
+    border: 1px solid hsl(280, 34%, 76%);
+    border-radius: 2px;
+    width: fit-content;
+    padding: 2px 5px;
+}
+
+.big{
+    display: flex;
+    /* width: 90%; */
+    justify-content: space-evenly;
+}
+.leftSide{
+   
+    width: 45%;
+    /* border: 5px dashed black; */
+}
+.rightSide{
+    
+    width: 45%;
+    /* border: 5px dashed black; */
+}
+.leftbox{
+  
+    padding-left: 28px;
+    padding-right: 30px;
+    /* border: 3px dashed wheat; */
+}
+.rightbox{
+    /* border: 1px dashed white; */
+    padding-left: 28px;
+    padding-right: 20px;
+
+/* Start to the left section */
+}
+.Antipasti1{
+    border: 1px solid white;
+    margin-left: -28px;
+    margin-right: -30px;
+    margin-top: 60px;
+    padding-left: 28px;
+    padding-right: 30px;
+}
+.Antipasti1 .lS1{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    /* overflow: auto; */
+}
+.lS2{
+    display: flex;
+    /* margin-left: 28px; */
+    /* padding-right: 25px; */
+    justify-content: space-between;
+}
+.lS2 .hp{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.lS2 p{
+    font-size: small;
+    /* border: 1px dashed white; */
+    border-radius: 2px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.lS2 hr {
+    margin-left: 5px;
+    border-color:hsl(280, 34%, 76%);
+    width: 165%
+}
+.lS2 .lPrice hr {
+    visibility: hidden;
+}
+.lS3box{
+    border: 1px solid hsl(280, 34%, 76%);
+    margin-left: -28px;
+    margin-right: -30px;
+    margin-top: 15px;
+    padding-left: 28px;
+    padding-right: 30px;
+}
+.lS3 {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    /* align-content: space-between; */
+}
+.lS3 hr{
+    width: 125%;
+}
+.lS3 .lPrice hr{
+    visibility: hidden;
+}
+.lS4 {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    /* align-content: space-between; */
+}
+
+.lS4 hr {
+    width: 165%;
+}
+
+.lS4 .lPrice hr {
+    visibility: hidden;
+}
+.note{
+    display: flex;
+}
+.note img{
+    margin-top: 40px;
+    margin-left: -15px;
+    /* width: 100px; */
+    height: 80px;
+    border-radius: 50px;
+   
+}
+/* start of the Right sections */
+.rS1{
+    display: flex;
+    justify-content: space-between;
+}
+.rS1 hr{
+    width: 135%;
+}
+.rS1 .rPrice hr{
+    visibility: hidden;
+}
+.rS2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rS2 hr{
+    width: 165%;
+}
+.rS2 .rPrice hr{
+    visibility: hidden;
+}
+.rS3box{
+    border: 1px solid hsl(280, 34%, 76%);
+    margin-left: -28px;
+    margin-right: -20px;
+    padding: 0px 20px 0px 28px;
+}
+.rS3{
+    display: flex;
+    justify-content:  space-between;
+}
+.rS3 hr {
+    width: 165%;
+}
+
+.rS3 .rPrice hr {
+    visibility: hidden;
+}
